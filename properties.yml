@@ -1,0 +1,8 @@
+properties:
+    css: div.sr_item
+    multiple: true
+    type: Text
+    children:
+        url:
+            css: a.hotel_name_link
+            type: Link

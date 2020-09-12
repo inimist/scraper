@@ -1,0 +1,43 @@
+Title:
+    css: h2.hp__hotel-name
+    xpath: null
+    type: Text
+Map:
+    css: span.hp_address_subtitle
+    xpath: null
+    type: Text
+Reviews:
+    css: 'a.big_review_score_detailed div.bui-review-score__text'
+    xpath: null
+    type: Text
+Rating:
+    css: 'a.big_review_score_detailed div.bui-review-score__badge'
+    xpath: null
+    type: Text
+Gallery:
+    css: 'div.bh-photo-grid > div[aria-hidden=true] a'
+    xpath: null
+    multiple: true
+    type: Link
+Thumbs:
+    css: 'div#photos_distinct a'
+    xpath: null
+    multiple: true
+    type: Link
+Features:
+    css: 'div.hotel_description_wrapper_exp div.important_facility'
+    xpath: null
+    multiple: true
+    type: Text
+Type:
+    css: span.hp__hotel-type-badge
+    xpath: null
+    type: Text
+URL:
+    css: 'a#hotel_header.jq_tooltip'
+    xpath: null
+    type: Text
+Description:
+    css: 'div#property_description_content'
+    xpath: null
+    type: Text
